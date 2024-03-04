@@ -13,11 +13,11 @@ Requirements -------------------------------------------------------------------
 
 Python 3.x for FFNN
 R version 3.4.4 or higher for RF and SVM
----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 
 
-Dependency Installation-----------------------------------------------------------------------------------------------------------
+Dependency Installation------------------------------------------------------------------------------------------------
 FFNN (Python)
 Install the necessary dependencies:
     pip install pandas numpy tensorflow scikit-learn
@@ -25,10 +25,10 @@ Install the necessary dependencies:
 RF and SVM (R)
 The required packages:
     install.packages(c("caret", "randomForest", "e1071", "pROC", "ROCR"))
------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 
-Codes execution -------------------------------------------------------------------------------------------------------------------
+Codes execution -------------------------------------------------------------------------------------------------------
 FFNN
 Navigate to the FFNN_model/ directory and execute the FFNN model python script.
 
@@ -39,11 +39,11 @@ Open an R console or RStudio, navigate to the RF_model/ directory, and execute t
 
 SVM
 In an R console or RStudio, navigate to the SVM_model/ directory and execute the provided R script Test_SVM_model.R.
-------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 
-Outputs ----------------------------------------------------------------------------------------------------------------------------
+Outputs --------------------------------------------------------------------------------------------------------------
 
 Each execution script generates a CSV file as output, which contains the computed performance metrics: sensitivity, specificity, balanced accuracy, MCC (Matthews Correlation Coefficient), and AUC (Area Under the Curve).
-------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 Support
 For any questions or issues, feel free to open an issue in the repository or contact bagdad.youcef.ybg@gmail.com.
