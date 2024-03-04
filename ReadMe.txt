@@ -46,8 +46,18 @@ SVM
 In an R console or RStudio, navigate to the SVM_model/ directory and execute the provided R script Test_SVM_model.R.
 ----------------------------------------------------------------------------------------------------------------
 
+
+Important Note for FFNN Model Usage ---------------------------------------------------------------------------- 
+If you wish to use the FFNN model to predict non-covalent inhibitors of the AmpC beta-lactamase enzyme among a set of molecules, it is crucial that the calculated descriptors for this dataset be normalized based on the mean and standard deviation of our training dataset, as demonstrated in the Python code for the test set available in the FFNN_model/ folder. This normalization ensures the model performs accurately on new data.
+
+
 Outputs --------------------------------------------------------------------------------------------------------
 Each execution script generates a CSV file as output, which contains the computed performance metrics: sensitivity, specificity, balanced accuracy, MCC (Matthews Correlation Coefficient), and AUC (Area Under the Curve).
 ----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 Support
 For any questions or issues, feel free to open an issue in the repository or contact bagdad.youcef.ybg@gmail.com.
