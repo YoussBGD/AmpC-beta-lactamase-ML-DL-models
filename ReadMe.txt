@@ -1,6 +1,8 @@
 Machine Learning Models Execution Guide
 
-This guide provides detailed instructions for running Feedforward Neural Network (FFNN), Random Forest (RF), and Support Vector Machine (SVM) models included in this repository.
+This guide provides detailed instructions for running Feedforward Neural Network (FFNN), Random Forest (RF), and Support Vector Machine (SVM) models included in this repository.These models are designed to predict non-covalent inhibitors of the AmpC beta-lactamase enzyme.
+
+
 
 Repository Structure ------------------------------------------------------------------------------------------------
 FFNN_model/: Contains the FFNN model "FFNN_model.hdf5", test set "test_set.csv", execution script "test_FFNN_model.ipynb" and necessary files for runing the model (mean.pkl, std.pkl).
