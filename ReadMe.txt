@@ -18,6 +18,7 @@ R version 3.4.4 or higher for RF and SVM
 
 
 Dependency Installation-----------------------------------------------------------------------------------------
+
 FFNN (Python)
 Install the necessary dependencies:
     pip install pandas numpy tensorflow scikit-learn
@@ -29,6 +30,7 @@ The required packages:
 
 
 Codes execution ------------------------------------------------------------------------------------------------
+
 FFNN
 Navigate to the FFNN_model/ directory and execute the FFNN model python script.
 
@@ -42,7 +44,6 @@ In an R console or RStudio, navigate to the SVM_model/ directory and execute the
 ----------------------------------------------------------------------------------------------------------------
 
 Outputs --------------------------------------------------------------------------------------------------------
-
 Each execution script generates a CSV file as output, which contains the computed performance metrics: sensitivity, specificity, balanced accuracy, MCC (Matthews Correlation Coefficient), and AUC (Area Under the Curve).
 ----------------------------------------------------------------------------------------------------------------
 Support
