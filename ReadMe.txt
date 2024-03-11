@@ -53,9 +53,8 @@ If you wish to use the FFNN model to predict non-covalent inhibitors of the AmpC
 
 Outputs --------------------------------------------------------------------------------------------------------
 Each execution script generates a CSV file as output, which contains the computed performance metrics: sensitivity, specificity, balanced accuracy, MCC (Matthews Correlation Coefficient), and AUC (Area Under the Curve).
+The scripts generates a second CSV file containing class predictions of the test set.
 ----------------------------------------------------------------------------------------------------------------
-
-
 
 
 
